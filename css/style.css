@@ -25,6 +25,7 @@ p{
   border-color: white;
 }
 
+
 /* Header */
 .header {
   position: fixed;
@@ -102,6 +103,12 @@ p{
   font-size: 14px;
   letter-spacing: .1em;
   text-transform: uppercase;
+}
+
+/* Produtos */
+
+.produtos {
+  padding: 60px 0;
 }
 
 
