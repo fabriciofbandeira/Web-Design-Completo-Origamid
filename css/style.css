@@ -45,7 +45,7 @@ img {
   margin-bottom: 40px;
 }
 
-.subtitulo:after {
+.subtitulo::after {
   content: "";
   display: block;
   width: 60px;
@@ -64,7 +64,7 @@ img {
   margin-bottom: 20px;
 }
 
-.subtitulo-interno:after {
+.subtitulo-interno::after {
   content: "";
   display: block;
   width: 60px;
@@ -110,6 +110,7 @@ img {
 .header_menu ul li a.menu_ativo {
   color: white;
 }
+
 /* Introdução */
 
 .introducao {
@@ -140,7 +141,7 @@ img {
   font-style: italic;
 }
 
-.quote-externo p:before, .quote-externo p:after {
+.quote-externo p::before, .quote-externo p::after {
   content: "";
   display: block;
   width: 60px;
@@ -174,7 +175,7 @@ img {
   text-transform: uppercase;
 }
 
-.introducao-interna h1:after {
+.introducao-interna h1::after {
   content: "";
   display: block;
   width: 60px;
@@ -203,7 +204,7 @@ img {
   margin-top: 20px;
 }
 
-.produtos_lista li h3:after {
+.produtos_lista li h3::after {
   content: "";
   display: block;
   width: 60px;
@@ -243,7 +244,7 @@ img {
   color: #fec63e;
 }
 
-.portfolio .subtitulo:after {
+.portfolio .subtitulo::after {
   background: #fec63e;
 }
 
@@ -261,7 +262,7 @@ img {
   padding: 60px 0;
 }
 
-.qualidade:after {
+.qualidade::after {
   content: "";
   width: 634px;
   height: 83px;
@@ -296,7 +297,7 @@ img {
   margin-top: 20px;
 }
 
-.qualidade_lista li h3:after {
+.qualidade_lista li h3::after {
   content: "";
   display: block;
   width: 60px;
@@ -340,7 +341,7 @@ img {
   font-weight: bold;
 }
 
-.footer h3:after {
+.footer h3::after {
   content: "";
   display: block;
   width: 60px;
