@@ -62,6 +62,10 @@
 	border-color: white;
 }
 
+.header_menu ul li a.menu_ativo {
+  border-color: white;
+}
+
 /* Introduçao */
 
 .introducao h1 {
@@ -69,10 +73,16 @@
 }
 
 .introducao {
-	margin-top: 0;
+	margin-top: 0px;
 	padding-top: 60px;
 	background: url("../img/bg-mobile.jpg") no-repeat center;
 	background-size: cover;
+}
+
+/* Introducao Interna */
+
+.introducao-interna {
+  margin-top: 0px;
 }
 
 /* Qualidade Home */
@@ -98,6 +108,22 @@
 	width: 26px;
 	height: 26px;;
 }
+
+/* Sobre */
+
+.missao_sobre p {
+	padding-right: 0px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.missao_sobre ul li {
+	font-size: 14px;
+	line-height: 25px;	
+}
+
+
+
 
 
 
