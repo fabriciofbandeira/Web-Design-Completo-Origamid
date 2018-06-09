@@ -1,10 +1,7 @@
-/* Estilo para tablets */
-
-/* media somente para telas e tenha tamanho minimo de 768px e tamanho maximo de 959px */
+/* Estilo para tablets - para telas e tenha tamanho minimo de 768px e tamanho maximo de 959px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
 /* Qualidade Home */
-
 .qualidade::after {
 	right: 66px;
 }
@@ -14,7 +11,6 @@
 }
 
 /* Footer */
-
 .footer_rede ul li a {
   padding: 6px;
 }
@@ -25,7 +21,6 @@
 }
 
 /* Produtos */
-
 .produto_item h2 {
   top: -150px;
   margin-bottom: -56px;
@@ -48,15 +43,10 @@
 } 
 /* Final do estilo para tablets */
 
-
-
-/* Estilo para smartphones */
-
-/* Quando tiver no máximo 767px */
+/* Estilo para smartphones - Quando tiver no máximo 767px */
 @media only screen and (max-width: 767px) {
 
 /* Header */
-
 .header {
 	position: relative;
 	padding-bottom: 0;
@@ -91,7 +81,6 @@
 }
 
 /* Introduçao */
-
 .introducao h1 {
   font-size: 42px;
 }
@@ -104,13 +93,11 @@
 }
 
 /* Introducao Interna */
-
 .introducao-interna {
   margin-top: 0px;
 }
 
 /* Qualidade Home */
-
 .qualidade::after {
 	display: none;
 }
@@ -134,7 +121,6 @@
 }
 
 /* Sobre */
-
 .missao_sobre p {
 	padding-right: 0px;
 	font-size: 14px;
@@ -146,9 +132,7 @@
 	line-height: 25px;	
 }
 
-
 /* Produtos */
-
 .produto_item h2 {
   top: -100px;
   margin-bottom: -68px;
@@ -180,4 +164,9 @@
   padding-right: 0px;  
 }
 
+/* Contato */
+.contato_form {
+	padding-right: 0px;
+	margin-bottom: 40px;
+}
 }
