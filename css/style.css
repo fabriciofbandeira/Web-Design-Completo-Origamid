@@ -27,6 +27,7 @@ textarea {
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: bold;
+  transition: all .5s ease;
 }
 
 .btn:hover {
@@ -107,6 +108,7 @@ textarea {
   font-size: 14px;
   line-height: 20px;
   padding: 10px 0;
+  transition: all .3s ease;
 }  
 
 .header_menu ul li a:hover {
@@ -379,6 +381,7 @@ textarea {
   border: 3px solid #fec63e;
   display: block;
   padding: 10px;
+  transition: all .5s ease;
 }
 
 .footer_rede ul li a:hover {
@@ -391,15 +394,45 @@ textarea {
   padding: 20px 0;
 }
 
+/* Animacoes */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 
 
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
 
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
 
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
 
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
 
-
-
-
-
-
- 
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
