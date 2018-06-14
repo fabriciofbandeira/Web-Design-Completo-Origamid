@@ -1,8 +1,14 @@
+
+/* Slides dos depoimentos do portfolio.html */
+
 $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
   speed: 500,            // Integer: Speed of the transition, in milliseconds
   timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
 });
+
+
+/* Slides das fotos do portfolio.html */
 
 $(".rslides_portfolio").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
